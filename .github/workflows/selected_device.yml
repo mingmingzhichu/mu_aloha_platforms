@@ -17,22 +17,6 @@ on:
         required: true
         type: choice
         options:
-          - asus-I001DC
-          - ayaneo-aps
-          - ayn-odin2
-          - eebbk-h130
-          - lg-alpha
-          - lg-beta
-          - lg-flash
-          - lg-mh2lm
-          - lg-mh2lm5g
-          - motorola-nio
-          - nubia-nx729j
-          - nubia-tp1803
-          - oneplus-dumpling
-          - oneplus-guacamole
-          - oneplus-guacamoleb
-          - oneplus-hotdog
           - oneplus-hotdogb
           - oneplus-hotdogg
           - oneplus-plk110
