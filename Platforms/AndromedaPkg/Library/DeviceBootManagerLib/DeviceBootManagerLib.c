@@ -920,7 +920,7 @@ DeviceBootManagerPriorityBoot (
   EFI_STATUS  Status;
 
   FrontPageBoot = MsBootPolicyLibIsSettingsBoot ();
-  BootloaderMenuBoot = MsBootPolicyLibIsBootloaderMenuBoot ();
+  BootloaderMenuBoot = SdBootPolicyLibIsBootloaderMenuBoot ();
   UFPBoot = SdBootPolicyLibIsUFPBoot ();
   AltDeviceBoot = TRUE;
   MsBootPolicyLibClearBootRequests ();
