@@ -919,10 +919,10 @@ DeviceBootManagerPriorityBoot (
   BOOLEAN     AltDeviceBoot;
   EFI_STATUS  Status;
 
-  FrontPageBoot = MsBootPolicyLibIsSettingsBoot ();
+  FrontPageBoot =  TRUE;
   BootloaderMenuBoot = SdBootPolicyLibIsBootloaderMenuBoot ();
   UFPBoot = SdBootPolicyLibIsUFPBoot ();
-  AltDeviceBoot = TRUE;
+  AltDeviceBoot = MsBootPolicyLibIsAltBoot ();
   MsBootPolicyLibClearBootRequests ();
 
   // There are six cases:
