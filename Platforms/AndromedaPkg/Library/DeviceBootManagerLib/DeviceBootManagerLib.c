@@ -922,7 +922,7 @@ DeviceBootManagerPriorityBoot (
   FrontPageBoot = MsBootPolicyLibIsSettingsBoot ();
   BootloaderMenuBoot = MsBootPolicyLibIsBootloaderMenuBoot ();
   UFPBoot = SdBootPolicyLibIsUFPBoot ();
-  AltDeviceBoot = MsBootPolicyLibIsAltBoot ();
+  AltDeviceBoot = TRUE;
   MsBootPolicyLibClearBootRequests ();
 
   // There are six cases:
